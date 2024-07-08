@@ -8,12 +8,16 @@ margin:0;
 padding:0;
 box-sizing: border-box;
 }
+section{
+    margin-top:120px;
+    margin-bottom:120px;
+}
 /* banner */
 .banner{
     margin:0 auto;
     /* border:2px solid red; */
-    width:1320px;
-    height:600px ;
+    max-width:1320px;
+    min-height:600px ;
     border-radius:16px;
     margin-top:50px;
     /* background-image:linear-gradient(180.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url("../images/Banner\ Image.png"); */
@@ -29,16 +33,93 @@ box-sizing: border-box;
     align-items: center;
     font-family:"Merriweather", serif;
 }
-.banner p,h1{
-    color:white;
-}
+
 .banner-title{
     font-size: 28px;
       margin-bottom: 16px;
+      color:white;
 }
 .banner-subtitle{
     font-size: 60px;
     font-weight: bolder;
       margin-bottom: 16px;
+      color:white;
 
+}
+/* sale */
+.sale-container{
+    /* border:1px solid red; */
+    min-height:750px;
+    max-width:802px;
+    margin:0px auto;
+}
+.sale-text{
+
+    /* border:2px solid green; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sale-title{
+    font-size: 80px;
+    font-weight: bold;
+      margin-bottom: 48px;
+      color:#FF0000;
+}
+.sale-subtitle{
+    font-size:24px;
+    font-weight: 500;
+      margin-bottom: 16px;
+      color:#FF0000;
+}
+.sale-sub-sub-title{
+    font-size:48px;
+    font-weight:bold;
+  
+      color:#070211;
+}
+/* midnight */
+.midnight-container{
+    /* border:1px solid red; */
+    margin:0 auto;
+    max-width:1320px;
+    min-height:600px ;
+    background-image:linear-gradient(90.00deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%), url("../images/Vectorrr.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display:flex;
+    /* background-color:rgba(0, 0, 0, 0.6);
+    background-blend-mode: overlay; */
+    border-radius:10px;
+}
+.midnight-text{
+/* border:1px solid red; */
+width:50%;
+color:white;
+margin:126px;
+font-family: "Merriweather", serif;
+
+}
+.midnight-title{
+    font-size: 64px;
+    font-weight: bolder;
+    margin-bottom:24px;
+     
+}
+.midnight-subtitle{
+    font-size:18px;
+    margin-bottom:32px;
+    color:rgba(255, 255, 255, 0.8);
+}
+.join{
+    font-size:20px;
+    font-weight: bold;
+    font-family:"Inter", sans-serif;
+  
+}
+.midnight-image{
+    margin:68px 0px;
+    margin-left:-50px;
 }
